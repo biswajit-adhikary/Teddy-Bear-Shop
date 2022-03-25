@@ -1,0 +1,22 @@
+.single-product {
+    border: 1px solid #ededed;
+    margin-bottom: 30px;
+}
+.single-product img {
+    width: 100%;
+}
+
+.product-text {
+    padding: 15px;
+    text-align: center;
+}
+
+.product-text h3 {
+    font-size: 17px;
+}
+
+.product-text h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+}
