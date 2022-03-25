@@ -1,0 +1,26 @@
+.cart-content h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.single-cart {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ededed;
+    padding: 5px;
+}
+
+.single-cart img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.single-cart p {
+    margin: 0;
+}
+.cart-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}

@@ -35,7 +35,7 @@ const Shop = () => {
                         </div>
                     </div>
                     <div className="col-lg-3">
-                        <div className="cart">
+                        <div className="cart-area">
                             {
                                 <Cart list={list}></Cart>
                             }

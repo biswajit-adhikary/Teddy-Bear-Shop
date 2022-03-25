@@ -2,3 +2,9 @@
     padding-top: 50px;
     padding-bottom: 20px;
 }
+.cart-area {
+    border: 1px solid #ededed;
+    padding: 20px;
+    background-color: #4A92FE;
+    color: #ffffff;
+}
