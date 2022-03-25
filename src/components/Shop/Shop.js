@@ -5,11 +5,18 @@ import './Shop.css';
 
 const Shop = () => {
     const [bears, setBears] = useState([]);
+    const [list, setList] = useState([]);
     useEffect(() => {
         fetch('teddy-bear.json')
             .then(rec => rec.json())
             .then(data => setBears(data));
-    }, [])
+    }, []);
+
+    const addToList = (bear) => {
+        const newList = [...list, bear];
+        setList(newList);
+    }
+
     return (
         <div className='shop-area'>
             <div className="container">
@@ -21,6 +28,7 @@ const Shop = () => {
                                     bears.map(bear => <Product
                                         key={bear.id}
                                         bear={bear}
+                                        addToList={addToList}
                                     ></Product>)
                                 }
                             </div>
@@ -29,7 +37,7 @@ const Shop = () => {
                     <div className="col-lg-3">
                         <div className="cart">
                             {
-                                <Cart></Cart>
+                                <Cart list={list}></Cart>
                             }
                         </div>
                     </div>
