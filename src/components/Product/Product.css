@@ -9,6 +9,7 @@
 .product-text {
     padding: 15px;
     text-align: center;
+    border-top: 1px solid #ededed;
 }
 
 .product-text h3 {

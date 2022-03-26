@@ -7,4 +7,6 @@
     padding: 20px;
     background-color: #4A92FE;
     color: #ffffff;
+    position: sticky;
+    top: 0;
 }

@@ -7,6 +7,7 @@ const Header = () => {
             <div className="container">
                 <div className="logo">
                     <h1>Teddy Bear Shop</h1>
+                    <h3>Choose 4 Bears</h3>
                 </div>
             </div>
         </div>

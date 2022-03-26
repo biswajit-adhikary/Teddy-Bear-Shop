@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Product = ({ bear, addToList }) => {
-    const { name, price, picture } = bear;
+    const { name, price, image } = bear;
     return (
         <div className='col-lg-4'>
             <div className="single-product">
                 <div className="product-image">
-                    <img src={picture} alt="" />
+                    <img src={image} alt="" />
                 </div>
                 <div className="product-text">
                     <h3>{name}</h3>

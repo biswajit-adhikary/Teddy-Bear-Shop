@@ -1,56 +1,56 @@
 [
     {
         "id": "623e0b6d77f12653cd9da06d",
-        "name": "GUND Philbin Teddy Bear",
+        "name": "Philbin Teddy Bear",
         "price": "$35.90",
-        "picture": "https://biswajitadhikary.com/fake-data/one-min.jpg"
+        "image": "https://biswajitadhikary.com/fake-data/one-min.jpg"
     },
     {
         "id": "623e0b6d1d6238f6038205ea",
         "name": "Aurora World - Bear",
         "price": "$15.66",
-        "picture": "https://biswajitadhikary.com/fake-data/two-min.jpg"
+        "image": "https://biswajitadhikary.com/fake-data/two-min.jpg"
     },
     {
         "id": "623e0b6da639668ddaba76d1",
-        "name": "GUND Toothpick Teddy Bear",
+        "name": "Toothpick Teddy Bear",
         "price": "$31.66",
-        "picture": "https://biswajitadhikary.com/fake-data/three-min.jpg"
+        "image": "https://biswajitadhikary.com/fake-data/three-min.jpg"
     },
     {
         "id": "623e0b6db29c2601e1d640d0",
-        "name": "Manhattan Toy Aviator Bear",
+        "name": "Manhattan Aviator Bear",
         "price": "$29.09",
-        "picture": "https://biswajitadhikary.com/fake-data/four-min.jpg"
+        "image": "https://biswajitadhikary.com/fake-data/four-min.jpg"
     },
     {
         "id": "623e0b6da91ef6857dcb3b53",
         "name": "Brown Smiling Teddy Bear",
         "price": "$10.57",
-        "picture": "https://biswajitadhikary.com/fake-data/five-min.jpg"
+        "image": "https://biswajitadhikary.com/fake-data/five-min.jpg"
     },
     {
         "id": "623e0b6d4000a4143b57f90f",
-        "name": "MaoGoLan Giant Teddy Bear",
+        "name": "Mao Giant Teddy Bear",
         "price": "$30.07",
-        "picture": "https://biswajitadhikary.com/fake-data/six-min.jpg"
+        "image": "https://biswajitadhikary.com/fake-data/six-min.jpg"
     },
     {
         "id": "623e0b6de7f0e2c0dd1d0c37",
         "name": "IKASA Giant Teddy Bear",
         "price": "$15.38",
-        "picture": "https://biswajitadhikary.com/fake-data/seven-min.jpg"
+        "image": "https://biswajitadhikary.com/fake-data/seven-min.jpg"
     },
     {
         "id": "623e0b6df5369ad1f8fc0f1f",
         "name": "TEMPUR-Plush Teddy Bear",
         "price": "$23.34",
-        "picture": "https://biswajitadhikary.com/fake-data/eight-min.jpg"
+        "image": "https://biswajitadhikary.com/fake-data/eight-min.jpg"
     },
     {
         "id": "623e0b6d56191a9a15a2d42f",
         "name": "Fuzzy Teddy Bear Stuffed",
         "price": "$40.40",
-        "picture": "https://biswajitadhikary.com/fake-data/nine-min.jpg"
+        "image": "https://biswajitadhikary.com/fake-data/nine-min.jpg"
     }
 ]
