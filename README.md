@@ -2,6 +2,8 @@
 
 Live link: [Teddy Bear Shop](https://spontaneous-zuccutto-440402.netlify.app/)
 
+Very simple shop for find out the best Teddy Bear for you.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
