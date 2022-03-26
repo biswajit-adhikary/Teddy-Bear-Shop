@@ -16,7 +16,7 @@ const Cart = ({ list, clearCart, selectOne }) => {
                 }
             </div>
             <div className="cart-buttons">
-                <button onClick={() => selectOne(list)} type="button" className="btn btn-light">Select One</button>
+                <button onClick={() => selectOne(list)} type="button" className="btn btn-light">Choose One</button>
                 <button onClick={clearCart} type="button" className="btn btn-warning">Choose Again</button>
             </div>
         </div>

@@ -5,7 +5,7 @@ const Question = () => {
         <div className='question-area my-4'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-9">
+                    <div className="col-lg-6">
                         <div className="single-question mb-3">
                             <h3>How react works?</h3>
                             <p>React is a JavaScript library. React maintain a tree and the tre able to see the changes on the components. It have it's own DOM and it's called Virtual DOM. React compare Browser DOM and Virtual DOM and see the changes. After that it find the changes and update the Browser DOM. It works without loading the page. React works Component-Based and it helps us create complex UI easily. It can update content easily using the same component. Also React is Declarative and react component has a lifecycle.</p>

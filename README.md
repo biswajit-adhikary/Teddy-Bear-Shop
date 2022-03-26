@@ -1,8 +1,6 @@
-# My Website
-
 # Teddy Bear Shop
 
-Live URL: [Teddy Bear Shop](https://github.com/Programming-Hero-Web-Course4/lucky-one-biswajit-adhikary)
+Live link: [Teddy Bear Shop](https://spontaneous-zuccutto-440402.netlify.app/)
 
 # Getting Started with Create React App
 
