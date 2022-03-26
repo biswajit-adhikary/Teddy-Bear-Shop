@@ -16,8 +16,6 @@ const Shop = () => {
         let newList = [];
         const exists = list.find(list => list.id === bear.id);
         const countList = list.length;
-        console.log(countList);
-        console.log(exists);
         if (countList >= 4) {
             alert('Four Item Already Selected!');
             newList = [...list];
@@ -32,8 +30,14 @@ const Shop = () => {
         setList(newList);
     }
 
+    const selectOne = (list) => {
+        if (list.length > 0) {
+            const selectedList = list[Math.floor(Math.random() * list.length)];
+            setList([selectedList]);
+        }
+    }
+
     const clearCart = () => {
-        document.getElementById('random-area').style.display = "none";
         setList([]);
     }
 
@@ -57,7 +61,7 @@ const Shop = () => {
                     <div className="col-lg-3 order-md-2 order-1">
                         <div className="cart-area mb-4">
                             {
-                                <Cart list={list} clearCart={clearCart}></Cart>
+                                <Cart list={list} clearCart={clearCart} selectOne={selectOne}></Cart>
                             }
                         </div>
                     </div>

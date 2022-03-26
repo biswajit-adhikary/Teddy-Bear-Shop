@@ -24,8 +24,3 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-
-#random-area {
-    display: none;
-    background-color: royalblue;
-}
